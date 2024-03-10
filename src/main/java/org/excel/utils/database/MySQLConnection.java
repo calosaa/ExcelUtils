@@ -16,12 +16,11 @@ public class MySQLConnection {
         String url = "jdbc:mysql://localhost:3306/";
         Properties info = new Properties();
         info.setProperty("user","root");
-        info.setProperty("password","43007884Ct!");
+        info.setProperty("password","123456");
         info.setProperty("useUnicode","true");
         info.setProperty("characterEncoding","utf8");
         info.setProperty("useSSL","false");
         //String user = "root";
-        //String password = "43007884Ct!";
         // 3.获取连接
         //connection = DriverManager.getConnection(url, user, password);
         connection = DriverManager.getConnection(url, info);
